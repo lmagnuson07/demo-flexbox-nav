@@ -1,0 +1,36 @@
+header {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    box-shadow: 0 0 8px rgb(222, 222, 222);
+    padding: 8px 16px;
+    min-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    width: 100px;
+}
+
+.nav-links,
+.header-buttons {
+    display: flex;
+    /* gap property works on the container and places spacing between each flex item (similar to margin) */
+    gap: 8px;
+}
+
+ul.header-buttons {
+    list-style-type: none;
+}
+
+.header-buttons a {
+    color: grey;
+    text-decoration: none;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 3px 16px;
+    border-radius: 4px;   
+}
+
+.header-buttons a:hover {
+    box-shadow: 0 0 5px rgb(65, 114, 238);
+}
